@@ -1,0 +1,71 @@
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--lc-font-family-body);
+  font-weight: var(--lc-font-weight-medium);
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+/* Sizes */
+.sm {
+  font-size: var(--lc-font-size-sm);
+  padding: var(--lc-space-1) var(--lc-space-3);
+  border-radius: var(--lc-radius-sm);
+  gap: var(--lc-space-1);
+}
+
+.md {
+  font-size: var(--lc-font-size-md);
+  padding: var(--lc-space-2) var(--lc-space-4);
+  border-radius: var(--lc-radius-md);
+  gap: var(--lc-space-2);
+}
+
+.lg {
+  font-size: var(--lc-font-size-lg);
+  padding: var(--lc-space-3) var(--lc-space-6);
+  border-radius: var(--lc-radius-lg);
+  gap: var(--lc-space-2);
+}
+
+/* Variants */
+.primary {
+  background: var(--lc-color-action-primary);
+  color: var(--lc-color-white);
+  border-color: var(--lc-color-action-primary);
+}
+
+.primary:hover:not(:disabled) {
+  background: var(--lc-color-action-primary-hover);
+  border-color: var(--lc-color-action-primary-hover);
+}
+
+.secondary {
+  background: transparent;
+  color: var(--lc-color-action-primary);
+  border-color: var(--lc-color-action-primary);
+}
+
+.secondary:hover:not(:disabled) {
+  background: var(--lc-color-red-100);
+}
+
+.ghost {
+  background: transparent;
+  color: var(--lc-color-text-primary);
+  border-color: transparent;
+}
+
+.ghost:hover:not(:disabled) {
+  background: var(--lc-color-cream-200);
+}

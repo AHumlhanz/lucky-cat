@@ -1,0 +1,52 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ */
+
+:root {
+  --lc-color-red-100: #fff0ee;
+  --lc-color-red-500: #e8392a;
+  --lc-color-red-700: #b52b1e;
+  --lc-color-gold-100: #fff8e1;
+  --lc-color-gold-400: #f5c842;
+  --lc-color-gold-600: #c9962a;
+  --lc-color-cream-50: #fdfaf4;
+  --lc-color-cream-200: #f0e8d5;
+  --lc-color-ink-200: #c4b49a;
+  --lc-color-ink-500: #5c4b38;
+  --lc-color-ink-900: #1a1008;
+  --lc-color-white: #ffffff;
+  --lc-color-background-default: #fdfaf4;
+  --lc-color-background-surface: #ffffff;
+  --lc-color-action-primary: #e8392a;
+  --lc-color-action-primary-hover: #b52b1e;
+  --lc-color-accent: #f5c842;
+  --lc-color-text-primary: #1a1008;
+  --lc-color-text-secondary: #5c4b38;
+  --lc-color-border-default: #c4b49a;
+  --lc-font-family-display: 'Shippori Mincho', serif;
+  --lc-font-family-body: 'Inter', sans-serif;
+  --lc-font-size-xs: 12px;
+  --lc-font-size-sm: 14px;
+  --lc-font-size-md: 16px;
+  --lc-font-size-lg: 20px;
+  --lc-font-size-xl: 24px;
+  --lc-font-size-2xl: 32px;
+  --lc-font-size-3xl: 48px;
+  --lc-font-weight-regular: 400;
+  --lc-font-weight-medium: 500;
+  --lc-font-weight-bold: 700;
+  --lc-space-1: 4px;
+  --lc-space-2: 8px;
+  --lc-space-3: 12px;
+  --lc-space-4: 16px;
+  --lc-space-6: 24px;
+  --lc-space-8: 32px;
+  --lc-space-12: 48px;
+  --lc-radius-sm: 6px;
+  --lc-radius-md: 12px;
+  --lc-radius-lg: 20px;
+  --lc-radius-full: 9999px;
+  --lc-shadow-sm: 0 1px 3px rgba(26,16,8,0.10);
+  --lc-shadow-md: 0 4px 12px rgba(26,16,8,0.12);
+  --lc-shadow-lg: 0 8px 24px rgba(26,16,8,0.14);
+}
