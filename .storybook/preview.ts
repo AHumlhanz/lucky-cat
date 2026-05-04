@@ -1,14 +1,14 @@
 import type { Preview } from '@storybook/react'
-import '../src/tokens/tokens.css'
+import '../src/index.css'
 
 const preview: Preview = {
   parameters: {
     backgrounds: {
-      default: 'cream',
+      default: 'white',
       values: [
-        { name: 'cream', value: '#FDFAF4' },
         { name: 'white', value: '#FFFFFF' },
-        { name: 'red', value: '#E8392A' },
+        { name: 'light blue', value: '#f0f9ff' },
+        { name: 'dark', value: '#222e40' },
       ],
     },
     controls: {
