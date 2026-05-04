@@ -21,6 +21,41 @@ const config: Config = {
           neutral:   colors.slate[600],    // #475569 — slate
           light:     colors.sky[50],       // #f0f9ff — light blue tint background
         },
+        danger: {
+          'extra-light': colors.red[50],
+          light:         colors.red[200],
+          base:          colors.red[500],
+          dark:          colors.red[700],
+          'extra-dark':  colors.red[900],
+        },
+        warning: {
+          'extra-light': colors.yellow[50],
+          light:         colors.yellow[200],
+          base:          colors.yellow[500],
+          dark:          colors.yellow[700],
+          'extra-dark':  colors.yellow[900],
+        },
+        success: {
+          'extra-light': colors.green[50],
+          light:         colors.green[200],
+          base:          colors.green[500],
+          dark:          colors.green[700],
+          'extra-dark':  colors.green[900],
+        },
+        info: {
+          'extra-light': colors.sky[50],
+          light:         colors.sky[200],
+          base:          colors.sky[500],
+          dark:          colors.sky[700],
+          'extra-dark':  colors.sky[900],
+        },
+        surface: {
+          'extra-light': colors.gray[50],
+          light:         colors.gray[100],
+          base:          colors.gray[200],
+          dark:          colors.gray[500],
+          'extra-dark':  colors.gray[700],
+        },
       },
     },
   },
